@@ -1,6 +1,12 @@
 # GenderPrediction
 Predict gender from name using MultinomialNB
 
+## Guideline
+```
+cd source
+python run app.py   
+```
+
 ## I. Single Prediction
 ### Request
 
@@ -60,11 +66,3 @@ http://0.0.0.0:8500/prediction?name=Dao Quoc Dat&language=vi
 | ------------ | ------------ |------------ |
 | language | String  | Language **(vi, en)**|
 | name | List String |  List names |
-
-
-
-## Guideline
-```
-cd source
-python run app.py   
-```
