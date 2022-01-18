@@ -2,7 +2,7 @@
 Predict gender from name using MultinomialNB
 
 ## I. Single Prediction
-###Request
+### Request
 
 ***URL (GET)*** : http://0.0.0.0:8500/prediction
 
@@ -27,7 +27,7 @@ Predict gender from name using MultinomialNB
 http://0.0.0.0:8500/prediction?name=Dao Quoc Dat&language=vi
 ```
 
-###Response
+### Response
 
 ***Sample response***
 ```
@@ -43,7 +43,7 @@ http://0.0.0.0:8500/prediction?name=Dao Quoc Dat&language=vi
 ```
 
 ## II. Multiple Prediction
-###Request
+### Request
 
 ***URL (POST)*** : http://0.0.0.0:8500/prediction
 
@@ -63,7 +63,7 @@ http://0.0.0.0:8500/prediction?name=Dao Quoc Dat&language=vi
 
 
 
-##Guideline
+## Guideline
 ```
 cd source
 python run app.py   
